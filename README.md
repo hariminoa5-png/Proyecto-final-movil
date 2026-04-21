@@ -48,3 +48,4 @@ El APK generado se encontrará en: `android/app/build/outputs/apk/debug/app-debu
 
 ---
 **Desarrollado como Proyecto Final · ITLA 2026**
+"# Proyecto-final-movil" 
