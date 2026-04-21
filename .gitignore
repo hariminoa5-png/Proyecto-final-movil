@@ -30,6 +30,6 @@ yarn-error.log*
 # Optional eslint cache
 .eslintcache
 
-# Capacitor native projects
-android/
-ios/
+# Capacitor native projects (Uncomment if you don't want to track native project files)
+# android/
+# ios/
