@@ -1,0 +1,28 @@
+workflows:
+  ionic-capacitor-android:
+    name: Ionic Capacitor Android Build
+    max_build_duration: 60
+    environment:
+      node: latest
+      java: 17
+      groups:
+        - google_play_credentials # Optional, for signing
+    scripts:
+      - name: Install dependencies
+        script: |
+          npm install
+      - name: Build web assets
+        script: |
+          npm run build
+      - name: Capacitor Sync
+        script: |
+          npx cap sync android
+      - name: Build Android APK
+        script: |
+          cd android && ./gradlew assembleDebug
+    artifacts:
+      - android/app/build/outputs/apk/debug/app-debug.apk
+    publishing:
+      email:
+        recipients:
+          - harim.inoa@itla.edu.do # Defaulting to Harim's email found earlier

@@ -1,0 +1,40 @@
+:root {
+  --ion-color-primary: #1d8cf8;
+  --ion-color-primary-rgb: 29, 140, 248;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-shade: #004ecc;
+  --ion-color-primary-tint: #4ea8ff;
+
+  --ion-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", sans-serif;
+  --heading-font: 'Montserrat', sans-serif;
+
+  --ion-background-color: #000000;
+  --ion-background-color-rgb: 0, 0, 0;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-item-background: transparent;
+  --ion-placeholder-color: rgba(255, 255, 255, 0.3);
+
+  --ion-toolbar-background: #000000;
+  --ion-toolbar-color: #ffffff;
+  --ion-toolbar-border-color: rgba(255, 255, 255, 0.08);
+
+  --ion-tab-bar-background: rgba(0, 0, 0, 0.95);
+  --ion-tab-bar-border-color: rgba(255, 255, 255, 0.08);
+  --ion-tab-bar-color: rgba(150, 150, 150, 0.6);
+  --ion-tab-bar-color-selected: #1d8cf8;
+
+  --card-bg: rgba(255, 255, 255, 0.04);
+  --card-border: 1px solid rgba(255, 255, 255, 0.08);
+  --card-radius: 16px;
+
+  --glass-bg: rgba(10, 10, 10, 0.7);
+  --glass-blur: blur(20px);
+  
+  --color-blue: #1d8cf8;
+  --color-text-dim: rgba(255, 255, 255, 0.5);
+  --color-success: #00f2c3;
+  --color-danger: #ff3e3e;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "autotrack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
